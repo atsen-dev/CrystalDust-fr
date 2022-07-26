@@ -1,5 +1,5 @@
 gPokedexRatingText_AreYouCurious::
-	.string "OAK: Good to see you!\n"
+	.string "CHEN: Good to see you!\n"
 	.string "How is your {POKEDEX} coming along?\p"
 	.string "Here, let me take a look.$"
 
@@ -8,7 +8,7 @@ gPokedexRatingText_SoYouveSeenAndCaught::
 	.string "on your {POKEDEX} is:\p"
 	.string "{STR_VAR_1} {POKEMON} seen and\n"
 	.string "{STR_VAR_2} {POKEMON} owned.\p"
-	.string "PROF. OAK's rating:$"
+	.string "PROF. CHEN's rating:$"
 
 gPokedexRatingText_LessThan10::
 	.string "Go into every patch of grass you\n"

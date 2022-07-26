@@ -58,7 +58,7 @@ script GoldenrodCity_BillsFamilysHouse_EventScript_Bill {
             }
             textcolor(MSG_COLOR_PREV)
             setflag(FLAG_GOT_EEVEE_FROM_BILL)
-            msgbox("BILL: PROF. ELM claims EEVEE may\n"
+            msgbox("BILL: PROF. ORME claims EEVEE may\n"
                    "evolve in new and unknown ways.")
         }
         else

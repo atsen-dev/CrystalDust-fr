@@ -98,6 +98,6 @@ script Route35_GoldenrodGatehouse_EventScript_ConcernedWoman {
 script Route35_GoldenrodGatehouse_EventScript_CuriousMan {
     msgbox("I wonder how many kinds of {POKEMON}\n"
            "there are in the world.\p"
-           "Three years ago, PROF. OAK said that\n"
+           "Three years ago, PROF. CHEN said that\n"
            "there were 150 different kinds.", MSGBOX_NPC)
 }

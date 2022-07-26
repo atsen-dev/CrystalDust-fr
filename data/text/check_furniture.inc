@@ -1,5 +1,5 @@
 Text_ItsATV:
-	.string "It's a TV.$"
+	.string "C'est la TV.$"
 
 Text_MyReflection:
 	.string "My reflection!\n"
@@ -14,8 +14,8 @@ Text_DistinguishedStatue:
 	.string "It looks very distinguished.$"
 
 Text_PictureBookShelf:
-	.string "It's a whole collection of {POKEMON}\n"
-	.string "picture books!$"
+	.string "Une collection de livres d'images\n"
+	.string "{POKEMON}!$"
 
 Text_BookShelf:
 	.string "It's full of difficult books.$"

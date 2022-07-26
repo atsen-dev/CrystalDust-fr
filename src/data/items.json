@@ -5644,12 +5644,12 @@
       "secondaryId": 0
     },
     {
-      "english": "OAK'S PARCEL",
+      "english": "CHEN'S PARCEL",
       "itemId": "ITEM_OAKS_PARCEL",
       "price": 0,
       "holdEffect": "HOLD_EFFECT_NONE",
       "holdEffectParam": 0,
-      "description_english": "A parcel to be delivered to PROF.\\nOAK from VIRIDIAN CITY's POKéMON\\nMART.",
+      "description_english": "A parcel to be delivered to PROF.\\nCHEN from VIRIDIAN CITY's POKéMON\\nMART.",
       "importance": 2,
       "exitsBagOnUse": 0,
       "pocket": "POCKET_KEY_ITEMS",

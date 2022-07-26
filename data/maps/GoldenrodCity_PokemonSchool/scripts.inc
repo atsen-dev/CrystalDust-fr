@@ -305,7 +305,7 @@ GoldenrodCity_PokemonSchool_Text_StudentsNotes: @ 82147A2
 	.string "challengers in {POKEMON} GYMS.$"
 
 GoldenrodCity_PokemonSchool_Text_ScottMetAlreadyCut: @ 82148C0
-	.string "Hello? Didn't we meet before?\n"
+	.string "Bonjour? Didn't we meet before?\n"
 	.string "I think back in PETALBURG CITY.\p"
 	.string "Let me introduce myself.\n"
 	.string "My name's SCOTT.\p"
@@ -335,7 +335,7 @@ GoldenrodCity_PokemonSchool_Text_ScottStoneBadge: @ 8214AB6
 	.string "a TRAINER from a LEAGUE BADGE.$"
 
 GoldenrodCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge: @ 8214B8A
-	.string "Hello? Didn't we meet before?\n"
+	.string "Bonjour? Didn't we meet before?\n"
 	.string "I think back in PETALBURG CITY.\p"
 	.string "Let me introduce myself.\n"
 	.string "My name's SCOTT.\p"

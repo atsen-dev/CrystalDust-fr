@@ -2015,7 +2015,7 @@ MatchCall_BattlePyramidText14::
 	.string "See you again!$"
 
 MatchCall_Text_Mom1::
-	.string "MOM: Your father and you…\n"
+	.string "MAMAN: Your father and you…\n"
 	.string "Everyone is captivated by {POKEMON}.\p"
 	.string "What is the charm of {POKEMON}?\p"
 	.string "Me?\n"
@@ -2023,7 +2023,7 @@ MatchCall_Text_Mom1::
 	.string "my everyday chores.$"
 
 MatchCall_Text_Mom2::
-	.string "MOM: Hi, {PLAYER}!\n"
+	.string "MAMAN: Hi, {PLAYER}!\n"
 	.string "Your father keeps himself locked\l"
 	.string "away in the PETALBURG GYM.\p"
 	.string "He comes home every so often.\n"
@@ -2033,7 +2033,7 @@ MatchCall_Text_Mom2::
 	.string "was a big blow to his pride!$"
 
 MatchCall_Text_Mom3::
-	.string "MOM: {PLAYER}…\n"
+	.string "MAMAN: {PLAYER}…\n"
 	.string "Don't worry about me or the house.\p"
 	.string "Wear those RUNNING SHOES until\n"
 	.string "they fall apart, honey!$"
@@ -2514,7 +2514,7 @@ MatchCall_Text_Brendan6::
 
 MatchCall_Text_Brendan7::
 	.string "BRENDAN: Who's this? Oh, {PLAYER}?\n"
-	.string "Guess what? I'm on ROUTE 119 now.\p"
+	.string "Devine quoi? I'm on ROUTE 119 now.\p"
 	.string "There's a big river here, and\n"
 	.string "it rains all the time.\p"
 	.string "I got soaked to the bone!$"
@@ -2803,7 +2803,7 @@ MatchCall_Text_Steven3::
 	.string "adventure's significance changes.$"
 
 MatchCall_Text_Steven4::
-	.string "STEVEN: Hello?\n"
+	.string "STEVEN: Bonjour?\n"
 	.string "{PLAYER}{KUN}?\p"
 	.string "I'm involved in a spot of trouble\n"
 	.string "at the SPACE CENTER.\p"

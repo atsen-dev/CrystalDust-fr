@@ -338,7 +338,7 @@ LilycoveCity_ContestHall_EventScript_SmartStageSign::
 LilycoveCity_ContestHall_Text_TodayWonSmartnessContest:
 	.string "This {POKEMON} won the BEAUTY CONTEST\n"
 	.string "here before.\p"
-	.string "Well, guess what? Today, I made it\n"
+	.string "Well, devine quoi? Today, I made it\n"
 	.string "win a SMARTNESS CONTEST!\p"
 	.string "My abilities scare even me…$"
 

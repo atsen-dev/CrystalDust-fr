@@ -1,7 +1,7 @@
 Chaos Rush - Big trees
 MrAPT1 - A ton of music
 Tetra - Intro BGs
-Farore - Intro Suicunes, Oak intro big sprites, Gold OW, Kris OW, Elm OW, Silver OW
+Farore - Intro Suicunes, CHEN intro big sprites, Gold OW, Kris OW, Elm OW, Silver OW
 Spherical Ice - Apricorn trees
 ShantyTown - Phone card functionality, card flip, bug-catching contest
 Kurausukun - Route 1, Dark Cave, Ruins of Alph interior

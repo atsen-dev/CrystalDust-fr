@@ -70,7 +70,7 @@ script NewBarkTown_ProfessorElmsLab_EventScript_Elm {
             waitmovement(0)
             applymovement(OBJ_EVENT_ID_ELM, Common_Movement_Delay48)
             waitmovement(0)
-            msgbox("What? That {POKEMON}!?!\n"
+            msgbox("Quoi? That {POKEMON}!?!\n"
                    "The EGG hatched!\p"
                    "So, {POKEMON} are born from EGGS…\n"
                    "No, perhaps not all {POKEMON} are.\p"
@@ -102,7 +102,7 @@ script NewBarkTown_ProfessorElmsLab_EventScript_Elm {
         textcolor(MSG_COLOR_SYS)
         playfanfare(MUS_OBTAIN_ITEM)
         message("{PLAYER} handed the MYSTERY EGG to\n"
-                "PROF. ELM.")
+                "PROF. ORME.")
         waitmessage
         waitfanfare
         closemessage
@@ -144,7 +144,7 @@ script NewBarkTown_ProfessorElmsLab_EventScript_Elm {
         msgbox("But… Is it a {POKEMON} EGG?\n"
                "If it is, it's a great discovery!\p"
                "What?!?\n"
-               "PROF. OAK gave you a {POKEDEX}?\p"
+               "PROF. CHEN gave you a {POKEDEX}?\p"
                "{PLAYER}, is that true?\n"
                "Th-that's incredible!\p"
                "He is superb at seeing the potential\n"
@@ -240,7 +240,7 @@ script NewBarkTown_ProfessorElmsLab_EventScript_Elm_GiveEverstone {
     else
     {
         giveitem_msg("{PLAYER} received the EVERSTONE\n"
-                     "from PROF. ELM.", ITEM_EVERSTONE)
+                     "from PROF. ORME.", ITEM_EVERSTONE)
         msgbox("That's an EVERSTONE.\p"
                "Some species of {POKEMON} evolve\n"
                "when they grow to certain levels.\p"
@@ -454,7 +454,7 @@ script NewBarkTown_EventScript_PokeBallMain {
     if (flag(FLAG_SYS_POKEMON_GET))
     {
         msgbox("It contains a {POKEMON} caught by\n"
-               "PROF. ELM.")
+               "PROF. ORME.")
     }
     else
     {
@@ -497,7 +497,7 @@ script NewBarkTown_EventScript_PokeBallMain {
             copyvar(VAR_STARTER_MON, PLAYER_STARTER_NUM) // 0=Chikorita, 1=Totodile, 2=Cyndaquil
             bufferspeciesname(0, PLAYER_STARTER_SPECIES)
             message("{PLAYER} received the {STR_VAR_1}\n"
-                    "from PROF. ELM!")
+                    "from PROF. ORME!")
             waitmessage
             playfanfare(MUS_RG_OBTAIN_KEY_ITEM)
             waitfanfare
@@ -552,7 +552,7 @@ script NewBarkTown_EventScript_PokeBallMain {
             setflag(FLAG_PHONE_CARD_ELM)
             playfanfare(MUS_REGISTER_PHONE)
             textcolor(MSG_COLOR_PREV)
-            msgbox("{PLAYER} got PROF. ELM's phone\n"
+            msgbox("{PLAYER} got PROF. ORME's phone\n"
                    "number.")
             waitfanfare
             applymovement(OBJ_EVENT_ID_ELM, Common_Movement_WalkInPlaceFastestLeft)
@@ -769,10 +769,10 @@ script NewBarkTown_ProfessorElmsLab_EventScript_OfficerMain {
     msgbox("I heard a {POKEMON} was stolen from\n"
            "here…\p"
            "I was just getting some information\n"
-           "from PROF. ELM.\p"
+           "from PROF. ORME.\p"
            "Apparently, it was a young male with\n"
            "long, red hair…\p"
-           "What? You're saying you battled a\n"
+           "Quoi? You're saying you battled a\n"
            "TRAINER like that?\p"
            "Did you happen to get his name?")
     goto(NewBarkTown_ProfessorElmsLab_EventScript_Officer_NameRival)

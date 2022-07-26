@@ -42,7 +42,7 @@ script VioletCity_PokemonCenter_1F_EventScript_Aide {
     {
         msgbox("{PLAYER}!\n"
                "Long time, no see.\p"
-               "PROF. ELM asked me to find you.\n"
+               "PROF. ORME asked me to find you.\n"
                "He has another favor to ask.\p"
                "Would you take the {POKEMON} EGG?", MSGBOX_YESNO)
     }
@@ -70,7 +70,7 @@ script VioletCity_PokemonCenter_1F_EventScript_Aide {
                    "{POKEMON} to hatch.\p"
                    "{PLAYER}, you're the only person\n"
                    "we can rely on.\p"
-                   "Please call PROF. ELM when that\n"
+                   "Please call PROF. ORME when that\n"
                    "EGG hatches!")
             closemessage
 
@@ -163,7 +163,7 @@ script VioletCity_PokemonCenter_1F_EventScript_Aide {
     else
     {
         msgbox("B-but…\n"
-               "PROF. ELM asked for you…")
+               "PROF. ORME asked for you…")
         setflag(FLAG_REFUSED_ELMS_EGG)
     }
 

@@ -174,33 +174,33 @@ PhoneScript_Mom_GotMon:
 	phone_end
 
 Text_Pokegear_Mom_Start:
-	.string "Hello?\n"
+	.string "Bonjour?\n"
 	.string "Oh, hi, {PLAYER}!\p"
-	.string "Wasn't PROF. ELM waiting for you?$"
+	.string "Wasn't PROF. ORME waiting for you?$"
 
 Text_Pokegear_Mom_GotMon:
-	.string "Hello?\n"
+	.string "Bonjour?\n"
 	.string "Oh, hi, {PLAYER}!\p"
-	.string "You're on a big mission for PROF. ELM?\n"
+	.string "You're on a big mission for PROF. ORME?\n"
 	.string "Be good!$"
 
 Text_Pokegear_Mom_GaveEggToElm:
-	.string "Hello?\n"
+	.string "Bonjour?\n"
 	.string "Oh, hi, {PLAYER}!\p"
 	.string "If you're done with your errand,\n"
 	.string "come on home, dear.$"
 
 Text_Pokegear_Mom_PhoneBanking_Question:
-	.string "Hello?\n"
+	.string "Bonjour?\n"
 	.string "…… {PLAYER}?\p"
-	.string "I heard from PROF. ELM that you\n"
+	.string "I heard from PROF. ORME that you\n"
 	.string "went on a long trip.\p"
 	.string "I wish you would have told me…\p"
 	.string "What about money?\n"
 	.string "Do you want me to save it?$"
 
 Text_Pokegear_Mom_RegularCall_WorkingHard:
-	.string "Hello?\n"
+	.string "Bonjour?\n"
 	.string "Oh, hi, {PLAYER}! Working hard?\p$"
 
 Text_Pokegear_Mom_RegularCall_NeverGoneThere:
@@ -209,7 +209,7 @@ Text_Pokegear_Mom_RegularCall_NeverGoneThere:
 	.string "That's kind of neat, {PLAYER}.\p$"
 
 Text_Pokegear_Mom_RegularCall_NewBark:
-	.string "What? You're in {STR_VAR_1}?\n"
+	.string "Quoi? You're in {STR_VAR_1}?\n"
 	.string "Come see your MOM sometime!\p$"
 
 Text_Pokegear_Mom_RegularCall_Cherrygrove:
@@ -344,7 +344,7 @@ Text_Pokegear_Elm_EggUnhatched::
 Text_Pokegear_Elm_EggHatched::
 	.string "Hello, {PLAYER}?\n"
 	.string "How is the EGG?\p"
-	.string "What? It hatched?\n"
+	.string "Quoi? It hatched?\n"
 	.string "Wow! What kind of {POKEMON} is it?\p"
 	.string "Please come show me now!$"
 

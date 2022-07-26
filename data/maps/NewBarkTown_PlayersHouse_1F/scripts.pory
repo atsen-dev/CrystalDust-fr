@@ -35,32 +35,31 @@ script NewBarkTown_PlayersHouse_1F_MomEncounter {
     applymovement(OBJ_EVT_MOM, NewBarkTown_PlayersHouse_1F_MomWalkToPlayer)
     waitmovement(0)
     delay(20)
-    msgbox("MOM: Oh, {PLAYER}…!\p"
-           "Our neighbor, PROF. ELM, was just\n"
-           "looking for you.\p"
-           "He said he wanted you to do\n"
-           "something for him.\p"
-           "Oh, I almost forgot! Your {POKEMON}\n"
-           "GEAR is back from the repair shop.\l"
-           "Here you go!")
+    msgbox("MAMAN: Ah, {PLAYER}…!\p"
+           "Notre voisin, le PROF. ORME, te cherchait.\p"
+           "Il voulait que tu fasses quelque chose\n"
+           "pour lui.\p"
+           "Oh, J'allais oublier! Ton MATOS {POKEMON}\n"
+           "est revenu de chez le réparateur.\l"
+           "Tiens!")
     textcolor(MSG_COLOR_PREV)
     playfanfare(MUS_OBTAIN_ITEM)
-    message("{PLAYER} received the {POKE}GEAR.")
+    message("{PLAYER} recoit le {POKE}GEAR.")
     waitfanfare
     setflag(FLAG_SYS_POKEGEAR_GET)
     setflag(FLAG_PHONE_CARD_MOM)
     textcolor(MSG_COLOR_RED)
-    msgbox("{POKEMON} GEAR, or just {POKE}GEAR.\n"
-           "It's essential if you want to be\l"
-           "a good TRAINER.\p"
-           "Oh, the day of the week isn't set.\n"
-           "You mustn't forget that!")
+    msgbox("le MATOS {POKEMON}, ou simplement {POKE}GEAR...\n"
+           "est primordial si tu veux devenir\l"
+           "dresseur.\p"
+           "Oh, le jour de la semaine n'est pas\n"
+           "paramétré.\n"
+           "N'oublie pas ca!")
     call(NewBarkTown_PlayersHouse_1F_MomWhatDayOfWeek)
     call(NewBarkTown_PlayersHouse_1F_MomDaylightSaving)
-    msgbox("Come home to adjust your clock for\n"
-           "Daylight Saving Time.\p"
-           "By the way, do you know how to\n"
-           "use the PHONE?", MSGBOX_YESNO)
+    msgbox("Reviens à la maison pour le changement d'heure.\p"
+           "Par ailleurs sais-tu comment\n"
+           "utiliser le TELEPHONE?", MSGBOX_YESNO)
 
     if (var(VAR_RESULT) == NO)
     {
@@ -73,11 +72,12 @@ script NewBarkTown_PlayersHouse_1F_MomEncounter {
     }
     else
     {
-        msgbox("Don't you just turn the {POKE}GEAR on\n"
-               "and select the PHONE icon?\p"
-               "“Phone numbers are stored in memory.\n"
-               "Just choose who you want to call.”\p"
-               "Gee, isn't that convenient?")
+        msgbox("As-tu allumé le {POKE}GEAR et\n"
+               "séléctionné l'icone TELEPHONE?\p"
+               "“Les numéros de téléphones sont enregistré\n"
+               "dans la mémoire.\n"
+               "Choisis le nom de celui que tu veux appeler.”\p"
+               "C'est pas trop compliquém non?")
     }
 
     closemessage
@@ -148,12 +148,12 @@ script NewBarkTown_PlayersHouse_1F_MomTalk {
     faceplayer
     if (flag(FLAG_PLAYER_MUST_LEAVE_HOUSE_TO_BANK_WITH_MOM))
     {
-        msgbox("MOM: {PLAYER}, do it!\n"
+        msgbox("MAMAN: {PLAYER}, do it!\n"
                "I'm behind you all the way!")
     }
     elif (flag(FLAG_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST))
     {
-        msgbox("MOM: Hi! Welcome home!\n"
+        msgbox("MAMAN: Salut! Bienvenue à la maison!\n"
                "You're trying very hard, I see.\p"
                "I've kept your room tidy…\n"
                "Or is this about your money?", MSGBOX_YESNO)
@@ -206,7 +206,7 @@ script NewBarkTown_PlayersHouse_1F_MomTalk {
         setflag(FLAG_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST)
         setflag(FLAG_PLAYER_MUST_LEAVE_HOUSE_TO_BANK_WITH_MOM)
         setvar(VAR_ROUTE31_STATE, 1)
-        msgbox("MOM: Wow, that's a cute {POKEMON}.\n"
+        msgbox("MAMAN: Wow, that's a cute {POKEMON}.\n"
                "Where did you get it?\p"
                "…\p"
                "So, you're leaving on an adventure…\p"
@@ -230,17 +230,17 @@ script NewBarkTown_PlayersHouse_1F_MomTalk {
     }
     elif (flag(FLAG_SYS_POKEMON_GET))
     {
-        msgbox("MOM: So, what was PROF. ELM's\n"
+        msgbox("MAMAN: So, what was PROF. ORME's\n"
                "errand?\p"
                "…\n"
                "That does sound challenging.\p"
-               "But, you should be proud that\n"
-               "people rely on you.")
+               "MaisBut, tu devrais être fier que\n"
+               "les gens comptent sur toi.")
     }
     else
     {
-        msgbox("MOM: PROF. ELM is waiting for you.\n"
-               "Hurry up, baby!")
+        msgbox("MAMAN: PROF. ORME t'attend.\n"
+               "Dépêche-toi, mon poussin!")
     }
     release
 }
@@ -250,7 +250,7 @@ text NewBarkTown_PlayersHouse_1F_EventScript_MomJustDoWhatYouCan {
 }
 
 script NewBarkTown_PlayersHouse_1F_EventScript_MomBank {
-    message("What do you want to do?")
+    message("Que veux-tu faire?")
     waitmessage
     multichoice(0, 0, MULTI_MOM_BANK, FALSE)
     switch (var(VAR_RESULT))
@@ -331,14 +331,14 @@ script NewBarkTown_PlayersHouse_1F_EventScript_MomBankDeposit {
 }
 
 script NewBarkTown_PlayersHouse_1F_EventScript_MomLostBooklet {
-    msgbox("Do you want to adjust your clock for\n"
-           "Daylight Saving Time?", MSGBOX_YESNO)
+    msgbox("Veux-tu ajuster la montre pour\n"
+           "l'Heure d'été?", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES)
     {
-        msgbox("I think I lost the instruction\n"
-               "booklet for the {POKE}GEAR…\p"
-               "I need to go look for it.\n"
-               "Come back again in a while.")
+        msgbox("Je pense que j'ai perdu le manuel\n"
+               "d'instructions du {POKE}GEAR…\p"
+               "Il faut que je le retrouve.\n"
+               "Reviens à nouveau dans quelques temps.")
     }
 }
 
@@ -349,22 +349,22 @@ script NewBarkTown_PlayersHouse_1F_NeighborTalk {
     if (var(VAR_0x8002) == TIME_MORNING)
     {
         msgbox("Good morning, {PLAYER}!\n"
-               "I'm visiting!\p", MSGBOX_CONTINUE)
+               "Je suis de passage!\p", MSGBOX_CONTINUE)
     }
     elif (var(VAR_0x8002) == TIME_DAY)
     {
-        msgbox("Hello, {PLAYER}!\n"
-               "I'm visiting!\p", MSGBOX_CONTINUE)
+        msgbox("Bonjour, {PLAYER}!\n"
+               "Je suis de passage!\p", MSGBOX_CONTINUE)
     }
     elif (var(VAR_0x8002) == TIME_NIGHT)
     {
-        msgbox("Good evening, {PLAYER}!\n"
-               "I'm visiting!\p", MSGBOX_CONTINUE)
+        msgbox("Bonsoir, {PLAYER}!\n"
+               "Je suis de passage!\p", MSGBOX_CONTINUE)
     }
-    msgbox("{PLAYER}, have you heard?\p"
-           "My daughter is adamant about\n"
-           "becoming PROF. ELM's assistant.\l"
-           "She really loves {POKEMON}!")
+    msgbox("{PLAYER}, es-tu au courant?\p"
+           "Ma fille veut devenir l'assistante du\n"
+           "PROF. ORME.\l"
+           "Elle adoooore les {POKEMON}!")
     closemessage
     applymovement(VAR_LAST_TALKED, Common_Movement_WalkInPlaceFastestRight)
     waitmovement(0)
@@ -372,10 +372,10 @@ script NewBarkTown_PlayersHouse_1F_NeighborTalk {
 }
 
 script NewBarkTown_PlayersHouse_1F_TV {
-    msgbox("There's a movie on TV.\n"
-           "Stars dot the sky as two boys\l"
-           "ride on a train…\p"
-           "I'd better get rolling too!", MSGBOX_SIGN)
+    msgbox("Un film à la TV:\n"
+           "On Se Calme Et On\l"
+           "Boit Frais à Saint-Tropez…\p"
+           "Ca a l'air trop fort!", MSGBOX_SIGN)
 }
 
 script NewBarkTown_PlayersHouse_1F_Stove {
@@ -388,18 +388,20 @@ script NewBarkTown_PlayersHouse_1F_Stove {
     }
     else
     {
-        msgbox("It's Mom's specialty, the\n"
-               "CINNABAR VOLCANO BURGER!")
+        msgbox("C'est la spécialité de Maman!\n"
+               "Un bon BURGER style CRAMOIS'ILE!")
     }
     release
 }
 
 script NewBarkTown_PlayersHouse_1F_Sink {
-    msgbox("The sink is spotless.\n"
-           "Mom likes to keep it clean.", MSGBOX_SIGN)
+    msgbox("L'evier est nickel de chez nickel.\n"
+           "Maman est assez maniaque.", MSGBOX_SIGN)
 }
 
 script NewBarkTown_PlayersHouse_1F_Fridge {
-    msgbox("Let's see what's in the fridge…\p"
-           "FRESH WATER and tasty LEMONADE!", MSGBOX_SIGN)
+    msgbox("Voyons voir ce qui se trame\n"
+           "dans le frigo…\p"
+           "De l'EAU FRAICHE et de la\n"
+           "bonne LIMONADE!", MSGBOX_SIGN)
 }

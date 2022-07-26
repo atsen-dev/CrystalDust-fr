@@ -62,7 +62,7 @@ script AzaleaTown_EventScript_RivalTrigger_All {
     msgbox("…Tell me something.\p"
            "Is it true that TEAM ROCKET has\n"
            "returned?\p"
-           "What? You beat them?\n"
+           "Quoi? You beat them?\n"
            "Hah! Quit lying.\p"
            "You're not joking?\n"
            "Then let's see how good you are.")

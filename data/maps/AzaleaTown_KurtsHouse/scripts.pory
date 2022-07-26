@@ -293,7 +293,7 @@ script AzaleaTown_KurtsHouse_EventScript_KurtsGranddaughter {
 }
 
 script AzaleaTown_KurtsHouse_EventScript_OakPhoto {
-    msgbox("…A young PROF. OAK?", MSGBOX_SIGN)
+    msgbox("…A young PROF. CHEN?", MSGBOX_SIGN)
 }
 
 script AzaleaTown_KurtsHouse_EventScript_CelebiStatue {

@@ -216,7 +216,7 @@ script GoldenrodCity_EventScript_RocketGrunt1 {
 
 script GoldenrodCity_EventScript_RocketGrunt2 {
     msgbox("Take over the RADIO TOWER…\p"
-           "What?\n"
+           "Quoi?\n"
            "It's none of your business!", MSGBOX_NPC)
 }
 

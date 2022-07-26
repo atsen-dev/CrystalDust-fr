@@ -11,7 +11,7 @@ script GoldenrodCity_Gym_EventScript_Whitney {
     elif (!flag(FLAG_BADGE03_GET))
     {
         msgbox("…Sniff…\p"
-               "What? What do you want?\n"
+               "Quoi? What do you want?\n"
                "A BADGE?\p"
                "Oh, right. I forgot.\n"
                "Here's the PLAINBADGE.")

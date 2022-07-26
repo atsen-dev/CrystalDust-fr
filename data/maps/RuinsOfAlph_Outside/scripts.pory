@@ -11,7 +11,7 @@ script RuinsOfAlph_Outside_EventScript_Boy2 {
     lock
     msgbox("A… H… E… A… D…\n"
            "Hm?\p"
-           "What?\n"
+           "Quoi?\n"
            "I'm decoding this message!")
     turnobject(ANNOYED_BOY, DIR_NORTH)
     release

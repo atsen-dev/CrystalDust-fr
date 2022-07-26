@@ -241,7 +241,7 @@ BattleFrontier_Lounge1_Text_StatFlawless:
 	.string "…Hm… That's how I call it.$"
 
 BattleFrontier_Lounge1_Text_NoTimeForMyAdvice:
-	.string "What?\n"
+	.string "Quoi?\n"
 	.string "You have no time for my advice?\p"
 	.string "You should always be eager to learn\n"
 	.string "from the experiences of your elders!$"

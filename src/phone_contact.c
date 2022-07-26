@@ -22,7 +22,7 @@ static bool8 CanAcceptRematch_Never(s8 dayOfWeek, s8 hour);
 static bool8 CanAcceptRematch_MondayDaytime(s8 dayOfWeek, s8 hour);
 
 static const u8 sPhoneContactName_Mom[] = _("MOM");
-static const u8 sPhoneContactName_ProfessorElm[] = _("PROF. ELM");
+static const u8 sPhoneContactName_ProfessorElm[] = _("PROF. ORME");
 static const u8 sPhoneContactName_BikeShop[] = _("BIKE SHOP");
 static const u8 sPhoneContactName_Bill[] = _("BILL");
 

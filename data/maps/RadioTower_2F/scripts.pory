@@ -402,7 +402,7 @@ script RadioTower_2F_EventScript_PokemonRadioSign {
 }
 
 script RadioTower_2F_EventScript_OaksPkmnTalkSign {
-    msgbox("PROF. OAK'S {POKEMON} TALK\n"
+    msgbox("PROF. CHEN'S {POKEMON} TALK\n"
            "The Hottest Show on the Air!", MSGBOX_SIGN)
 }
 

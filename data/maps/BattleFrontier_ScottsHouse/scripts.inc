@@ -297,7 +297,7 @@ BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
 	.string "right?\p"
 	.string "I think I remember you working on\n"
 	.string "a {POKEDEX} as well.\p"
-	.string "Well, guess what?\p"
+	.string "Well, devine quoi?\p"
 	.string "You may run into wild {POKEMON} in\n"
 	.string "the BATTLE FRONTIER somewhere…\l"
 	.string "Fufufu!$"

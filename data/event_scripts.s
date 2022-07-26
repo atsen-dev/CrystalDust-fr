@@ -568,7 +568,7 @@ gText_PokemonTrainerSchoolEmail::
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC::
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER} allume le PC.$"
 
 gText_PokeblockLinkCanceled::
 	.string "The link was canceled.$"
@@ -648,7 +648,7 @@ gText_PlayerHandedOverTheItem::
 	.string "System…$"
 
 gText_AccessedProfOaksPC:: @ 81A5BC6
-	.string "Accessed PROF. OAK's PC…\p"
+	.string "Accessed PROF. CHEN's PC…\p"
 	.string "Accessed the {POKEDEX} Rating\n"
 	.string "System…$"
 
@@ -657,7 +657,7 @@ gText_HavePokedexRated::
 	.string "{POKEDEX} rated?$"
 
 gText_ClosedLinkToProfOaksPC::
-	.string "Closed link to PROF. OAK's PC.$"
+	.string "Closed link to PROF. CHEN's PC.$"
 
 gText_ThankYouForAccessingMysteryGift::
 	.string "Thank you for accessing the\n"
