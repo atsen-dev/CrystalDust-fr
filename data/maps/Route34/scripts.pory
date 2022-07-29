@@ -103,8 +103,8 @@ script Route34_EventScript_Kate {
 
 script Route34_EventScript_DirectionsSign {
     msgbox("ROUTE 34\n"
-           "GOLDENROD CITY - AZALEA TOWN\p"
-           "ILEX FOREST SOMEWHERE BETWEEN", MSGBOX_SIGN)
+           "DOUBLON VILLE - ECORCIA\p"
+           "BOIS AUX CHENES SOMEWHERE BETWEEN", MSGBOX_SIGN)
 }
 
 script Route34_EventScript_TrainerTipsSign {

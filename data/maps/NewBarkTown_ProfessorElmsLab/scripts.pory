@@ -85,7 +85,7 @@ script NewBarkTown_ProfessorElmsLab_EventScript_Elm {
         msgbox("ELM: {PLAYER}?\n"
                "Didn't you meet my assistant?\p"
                "He should have met you with the EGG\n"
-               "at VIOLET CITY's {POKEMON} CENTER.\p"
+               "at MAUVILLE's {POKEMON} CENTER.\p"
                "You must have just missed him.\n"
                "Try to catch him there.")
     }
@@ -156,7 +156,7 @@ script NewBarkTown_ProfessorElmsLab_EventScript_Elm {
                "You should take the {POKEMON} GYM\n"
                "challenge.\p"
                "The closest GYM would be the one in\n"
-               "VIOLET CITY.\p"
+               "MAUVILLE.\p"
                "…{PLAYER}. The road to the\n"
                "championship will be a long one.\p"
                "Before you leave, make sure that\n"

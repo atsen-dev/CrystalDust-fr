@@ -150,14 +150,14 @@ script GoldenrodCity_Gym_EventScript_Statue {
     faceplayer
     if (flag(FLAG_BADGE03_GET))
     {
-        msgbox("GOLDENROD CITY {POKEMON} GYM\n"
+        msgbox("DOUBLON VILLE {POKEMON} GYM\n"
                "LEADER: WHITNEY\p"
                "WINNING TRAINERS:\n"
                "{PLAYER}")
     }
     else
     {
-        msgbox("GOLDENROD CITY {POKEMON} GYM")
+        msgbox("DOUBLON VILLE {POKEMON} GYM")
     }
     release
 }

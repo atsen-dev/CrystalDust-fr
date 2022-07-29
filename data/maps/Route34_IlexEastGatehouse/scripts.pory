@@ -1,7 +1,7 @@
 mapscripts Route34_IlexEastGatehouse_MapScripts { }
 
 script Route34_IlexEastGatehouse_EventScript_Officer {
-    msgbox("ILEX FOREST is big. Be careful!\n"
+    msgbox("BOIS AUX CHENES is big. Be careful!\n"
            "Don't get lost.", MSGBOX_NPC)
 }
 

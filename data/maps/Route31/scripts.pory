@@ -13,7 +13,7 @@ mapscripts Route31_MapScripts {
 }
 
 script Route31_EventScript_Explorer {
-    msgbox("DARK CAVE…\p"
+    msgbox("ANTRE NOIRE…\p"
 	       "If {POKEMON} could light it up, I'd\n"
 	       "explore it.", MSGBOX_NPC)
 }
@@ -96,7 +96,7 @@ script Route31_EventScript_SleepyMan {
                     msgbox("Let's see…\p"
                            "“There's a dark place near you.\n"
                            "Let's go have an adventure there!”\p"
-                           "Does he mean DARK CAVE?\n"
+                           "Does he mean ANTRE NOIRE?\n"
                            "That sounds like fun.\p"
                            "You know, I heard that cave leads\n"
                            "to another road.\p"
@@ -176,7 +176,7 @@ script MoveTutor_EventScript_NightmareDeclined{
 
 script Route31_EventScript_Youngster {
     msgbox("I found a good {POKEMON} in\n"
-           "DARK CAVE.\p"
+           "ANTRE NOIRE.\p"
            "I'm going to raise it to take on\n"
            "FALKNER, the leader of VIOLET\l"
            "CITY's GYM.", MSGBOX_NPC)
@@ -191,9 +191,9 @@ script Route31_EventScript_Trainer_Wade {
 
 script Route31_EventScript_Directions {
     msgbox("ROUTE 31\n"
-           "VIOLET CITY - CHERRYGROVE CITY", MSGBOX_SIGN)
+           "MAUVILLE - VILLE GRIOTTE", MSGBOX_SIGN)
 }
 
 script Route31_EventScript_DarkCave {
-    msgbox("DARK CAVE", MSGBOX_SIGN)
+    msgbox("ANTRE NOIRE", MSGBOX_SIGN)
 }

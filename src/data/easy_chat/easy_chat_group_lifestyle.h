@@ -1,6 +1,6 @@
 const u8 gEasyChatWord_Chores[] = _("CHORES");
 const u8 gEasyChatWord_Home[] = _("HOME");
-const u8 gEasyChatWord_Money[] = _("MONEY");
+const u8 gEasyChatWord_Money[] = _("ARGENT");
 const u8 gEasyChatWord_Allowance[] = _("ALLOWANCE");
 const u8 gEasyChatWord_Bath[] = _("BATH");
 const u8 gEasyChatWord_Conversation[] = _("CONVERSATION");

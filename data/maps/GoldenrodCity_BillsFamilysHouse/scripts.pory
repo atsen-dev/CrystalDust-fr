@@ -100,7 +100,7 @@ script GoldenrodCity_BillsFamilysHouse_EventScript_BillsMom {
         msgbox("Oh, you collect {POKEMON}?\n"
                "My son BILL is an expert collector.\p"
                "He just got called to the {POKEMON}\n"
-               "CENTER in ECRUTEAK CITY.\p"
+               "CENTER in ROSALIA.\p"
                "My husband went off to the GAME\n"
                "CORNER without being called…")
     }

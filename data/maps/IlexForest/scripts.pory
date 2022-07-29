@@ -409,7 +409,7 @@ script IlexForest_EventScript_Apprentice {
 			   "The FARFETCH'D that CUTS trees\n"
 			   "for CHARCOAL took off on me.\p"
 			   "I can't go looking for it here in\n"
-			   "the ILEX FOREST.\p"
+			   "the BOIS AUX CHENES.\p"
 			   "It's too big, dark, and scary for\n"
 			   "me to go any further…")
 	}
@@ -461,14 +461,14 @@ script IlexForest_EventScript_Lass {
 }
 
 script IlexForest_EventScript_DroppedItemsSign {
-	msgbox("ILEX FOREST is so overgrown with\n"
+	msgbox("BOIS AUX CHENES is so overgrown with\n"
 		   "trees that you can't see the sky.\p"
 		   "Please watch out for items that may\n"
 		   "have been dropped.", MSGBOX_SIGN)
 }
 
 script IlexForest_EventScript_Shrine {
-	msgbox("ILEX FOREST SHRINE…\p"
+	msgbox("BOIS AUX CHENES SHRINE…\p"
 		   "It's in honor of the forest's\n"
 		   "protector…", MSGBOX_SIGN)
 }

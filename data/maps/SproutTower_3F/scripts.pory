@@ -87,7 +87,7 @@ script SproutTower_3F_EventScript_Elder {
 
 text SproutTower_3F_Text_Li_Prebattle {
     "So good of you to come here!\p"
-    "SPROUT TOWER is a place of training\n"
+    "TOUR CHETIFLOR is a place of training\n"
     "and learning.\p"
     "Here, people and {POKEMON} test\n"
     "their bonds to build a bright\l"

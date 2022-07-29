@@ -96,10 +96,10 @@ script Route32_EventScript_RoadblockMan_Common {
         msgbox("Looks like you have some good\n"
                "{POKEMON} there.\p"
                "It must be from the training you\n"
-               "gave them around VIOLET CITY.\p"
+               "gave them around MAUVILLE.\p"
                "The training at the GYM must have\n"
                "been especially helpful.\p"
-               "As a souvenir of VIOLET CITY,\n"
+               "As a souvenir of MAUVILLE,\n"
                "take this.\p"
                "It increases the power of GRASS-\n"
                "type moves.")
@@ -125,7 +125,7 @@ script Route32_EventScript_RoadblockMan_Common {
 }
 
 script Route32_EventScript_RoadblockMan_AfterItem {
-    msgbox("Your experiences in VIOLET CITY\n"
+    msgbox("Your experiences in MAUVILLE\n"
            "should be useful for your journey.")
 }
 
@@ -369,15 +369,15 @@ script Route32_EventScript_Peter {
 }
 
 script Route32_EventScript_RuinsOfAlphSign {
-    msgbox("RUINS OF ALPH\n"
+    msgbox("RUINES D'ALPHA\n"
            "EAST ENTRANCE", MSGBOX_SIGN)
 }
 
 script Route32_EventScript_DirectionsSign {
     msgbox("ROUTE 32\n"
-           "VIOLET CITY - AZALEA TOWN", MSGBOX_SIGN)
+           "MAUVILLE - ECORCIA", MSGBOX_SIGN)
 }
 
 script Route32_EventScript_UnionCaveSign {
-    msgbox("UNION CAVE AHEAD", MSGBOX_SIGN)
+    msgbox("CAVES JUMELLES AHEAD", MSGBOX_SIGN)
 }

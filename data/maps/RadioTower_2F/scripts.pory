@@ -46,7 +46,7 @@ script RadioTower_2F_EventScript_LullabyWoman {
     if (flag(FLAG_ROCKETS_IN_RADIO_TOWER))
     {
         msgbox("Why would they want to take over\n"
-               "the RADIO TOWER?")
+               "the TOUR RADIO?")
     }
     else
     {

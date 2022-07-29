@@ -138,7 +138,7 @@ script GoldenrodCity_EventScript_MoveTutor{
 }
 
 script GoldenrodCity_EventScript_CreakyRadioTowerMan {
-    msgbox("They built the RADIO TOWER to\n"
+    msgbox("They built the TOUR RADIO to\n"
            "replace the old, creaky one.", MSGBOX_NPC)
 }
 
@@ -170,7 +170,7 @@ script GoldenrodCity_EventScript_RadioWoman {
     }
     else
     {
-        msgbox("The RADIO TOWER in GOLDENROD CITY\n"
+        msgbox("The TOUR RADIO in DOUBLON VILLE\n"
                "is a landmark.\p"
                "They're running a promotional\n"
                "campaign right now.\p"
@@ -199,7 +199,7 @@ script GoldenrodCity_EventScript_LostOldMan {
 
 script GoldenrodCity_EventScript_RocketScout {
     lock
-    msgbox("So this is the RADIO TOWER…")
+    msgbox("So this is the TOUR RADIO…")
     faceplayer
     msgbox("What do you want, you pest?\n"
            "Scram!")
@@ -215,7 +215,7 @@ script GoldenrodCity_EventScript_RocketGrunt1 {
 }
 
 script GoldenrodCity_EventScript_RocketGrunt2 {
-    msgbox("Take over the RADIO TOWER…\p"
+    msgbox("Take over the TOUR RADIO…\p"
            "Quoi?\n"
            "It's none of your business!", MSGBOX_NPC)
 }
@@ -242,26 +242,26 @@ script GoldenrodCity_EventScript_RocketGrunt6 {
 }
 
 script GoldenrodCity_EventScript_MagnetTrainStationSign {
-    msgbox("GOLDENROD CITY STATION", MSGBOX_SIGN)
+    msgbox("DOUBLON VILLE STATION", MSGBOX_SIGN)
 }
 
 script GoldenrodCity_EventScript_RadioTowerSign {
-    msgbox("GOLDENROD CITY RADIO TOWER", MSGBOX_SIGN)
+    msgbox("DOUBLON VILLE TOUR RADIO", MSGBOX_SIGN)
 }
 
 script GoldenrodCity_EventScript_DeptStoreSign {
     msgbox("Full Selection of {POKEMON} Goods!\n"
-           "GOLDENROD CITY DEPT. STORE", MSGBOX_SIGN)
+           "DOUBLON VILLE DEPT. STORE", MSGBOX_SIGN)
 }
 
 script GoldenrodCity_EventScript_GymSign {
-    msgbox("GOLDENROD CITY {POKEMON} GYM\n"
+    msgbox("DOUBLON VILLE {POKEMON} GYM\n"
            "LEADER: WHITNEY\p"
            "The Incredibly Pretty Girl!", MSGBOX_SIGN)
 }
 
 script GoldenrodCity_EventScript_CitySloganSign {
-    msgbox("GOLDENROD CITY\n"
+    msgbox("DOUBLON VILLE\n"
            "The Festive City of Opulent Charm", MSGBOX_SIGN)
 }
 
@@ -272,7 +272,7 @@ script GoldenrodCity_EventScript_BikeShopSign {
 
 script GoldenrodCity_EventScript_GameCornerSign {
     msgbox("Your Playground!\n"
-           "GOLDENROD CITY GAME CORNER", MSGBOX_SIGN)
+           "DOUBLON VILLE GAME CORNER", MSGBOX_SIGN)
 }
 
 script GoldenrodCity_EventScript_NameRaterSign {

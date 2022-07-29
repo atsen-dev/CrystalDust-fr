@@ -18,7 +18,7 @@ script VioletCity_Gym_EventScript_Falkner {
 }
 
 text VioletCity_Gym_Text_FalknerPreBattle {
-	"I'm FALKNER, the VIOLET CITY\n"
+	"I'm FALKNER, the MAUVILLE\n"
 	"{POKEMON} GYM LEADER!\p"
 	"People say you can clip FLYING-\n"
 	"type {POKEMON}'s wings with a jolt\l"
@@ -96,14 +96,14 @@ script VioletCity_Gym_EventScript_GymStatue {
     lockall
     if (flag(FLAG_BADGE01_GET))
     {
-        msgbox("VIOLET CITY {POKEMON} GYM\n"
+        msgbox("MAUVILLE {POKEMON} GYM\n"
                "LEADER: FALKNER\p"
                "WINNING TRAINERS:\n"
                "{PLAYER}")
     }
     else
     {
-        msgbox("VIOLET CITY {POKEMON} GYM")
+        msgbox("MAUVILLE {POKEMON} GYM")
     }
     releaseall
 }

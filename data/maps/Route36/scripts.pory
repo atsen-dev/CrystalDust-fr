@@ -120,7 +120,7 @@ script Route36_EventScript_BlockedGirl {
     if (!flag(FLAG_DEFEATED_SUDOWOODO))
     {
         msgbox("An odd tree is blocking the way\n"
-               "to GOLDENROD CITY.\p"
+               "to DOUBLON VILLE.\p"
                "I wanted to go see the huge\n"
                "{POKEMON} CENTER they just opened…")
     }
@@ -294,7 +294,7 @@ script Route36_EventScript_DirectionsSign {
 }
 
 script Route36_EventScript_RuinsOfAlphSign {
-    msgbox("RUINS OF ALPH\n"
+    msgbox("RUINES D'ALPHA\n"
            "NORTH ENTRANCE", MSGBOX_SIGN)
 }
 

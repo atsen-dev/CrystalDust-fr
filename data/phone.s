@@ -333,7 +333,7 @@ Text_Pokegear_Elm_SeeAssistant::
 	.string "Hello, {PLAYER}?\n"
 	.string "Did you see my assistant?\p"
 	.string "He's at the {POKEMON} CENTER in\n"
-	.string "VIOLET CITY.$"
+    	.string "MAUVILLE.$"
 
 Text_Pokegear_Elm_EggUnhatched::
 	.string "Hello, {PLAYER}?\n"
@@ -385,7 +385,7 @@ VioletCity_Text_ElmCall:
 	.string "We discovered something about\l"
 	.string "the EGG!\p"
 	.string "My assistant is at the {POKEMON}\n"
-	.string "CENTER in VIOLET CITY.\l"
+	.string "CENTER in MAUVILLE.\l"
 	.string "Could you talk to him?$"
 
 PhoneScript_BikeShop::

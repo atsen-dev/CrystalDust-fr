@@ -240,7 +240,7 @@ movement VioletCity_Movement_EarlIntoDoor {
 
 script VioletCity_GhostGirl {
     msgbox("Ghosts are rumored to appear in\n"
-           "SPROUT TOWER.\p"
+           "TOUR CHETIFLOR.\p"
            "They said NORMAL-type {POKEMON}\n"
            "moves had no effect on ghosts.", MSGBOX_NPC)
 }
@@ -265,19 +265,19 @@ script VioletCity_TreeBoy {
 }
 
 script VioletCity_TownSloganSign {
-    msgbox("VIOLET CITY\n"
+    msgbox("MAUVILLE\n"
 		   "The City of Nostalgic Scents", MSGBOX_SIGN)
 }
 
 script VioletCity_GymSign {
-    msgbox("VIOLET CITY {POKEMON} GYM\n"
+    msgbox("MAUVILLE {POKEMON} GYM\n"
 		   "LEADER: FALKNER\p"
 		   "The Elegant Master of FLYING\n"
 		   "{POKEMON}", MSGBOX_SIGN)
 }
 
 script VioletCity_SproutTowerSign {
-    msgbox("SPROUT TOWER\n"
+    msgbox("TOUR CHETIFLOR\n"
 		   "Experience the Way of {POKEMON}", MSGBOX_SIGN)
 }
 

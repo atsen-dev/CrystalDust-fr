@@ -57,7 +57,7 @@ script RuinsOfAlph_ResearchCenter_EventScript_Scientist3 {
 
 script RuinsOfAlph_ResearchCenter_EventScript_Computer {
     // TODO: Check for all Unowns
-    msgbox("RUINS OF ALPH\n"
+    msgbox("RUINES D'ALPHA\n"
            "Exploration Year 10", MSGBOX_SIGN)
 }
 

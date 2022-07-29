@@ -109,13 +109,13 @@ script NationalPark_EventScript_GameboyKid {
 
 script NationalPark_EventScript_RelaxationSquare {
     msgbox("RELAXATION SQUARE\n"
-           "NATIONAL PARK", MSGBOX_SIGN)
+           "PARC NATUREL", MSGBOX_SIGN)
 }
 
 script NationalPark_EventScript_BattleNotice {
     msgbox("What is this notice?\p"
            "Please battle only in the grass.\n"
-           "NATIONAL PARK WARDEN'S OFFICE", MSGBOX_SIGN)
+           "PARC NATUREL WARDEN'S OFFICE", MSGBOX_SIGN)
 }
 
 script NationalPark_EventScript_TrainerTips {

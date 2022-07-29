@@ -107,14 +107,14 @@ script AzaleaTown_Gym_EventScript_GymStatue {
     lockall
     if (flag(FLAG_BADGE02_GET))
     {
-        msgbox("AZALEA TOWN {POKEMON} GYM\n"
+        msgbox("ECORCIA {POKEMON} GYM\n"
                "LEADER: BUGSY\p"
                "WINNING TRAINERS:\n"
                "{PLAYER}")
     }
     else
     {
-        msgbox("AZALEA TOWN {POKEMON} GYM")
+        msgbox("ECORCIA {POKEMON} GYM")
     }
     releaseall
 }

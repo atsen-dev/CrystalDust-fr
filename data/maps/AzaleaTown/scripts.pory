@@ -192,7 +192,7 @@ script AzaleaTown_EventScript_Woman {
 
 script AzaleaTown_EventScript_Youngster {
     msgbox("Cut through AZALEA and you'll be\n"
-           "in ILEX FOREST.\p"
+           "in BOIS AUX CHENES.\p"
            "But these skinny trees make it\n"
            "impossible to get through.\p"
            "The CHARCOAL MAN's {POKEMON} can CUT\n"
@@ -220,7 +220,7 @@ script AzaleaTown_EventScript_GymRocket {
 }
 
 script AzaleaTown_EventScript_TownSign {
-    msgbox("AZALEA TOWN\n"
+    msgbox("ECORCIA\n"
            "Where People and {POKEMON} Live in\l"
            "Happy Harmony", MSGBOX_SIGN)
 }
@@ -230,14 +230,14 @@ script AzaleaTown_EventScript_KurtsHouseSign {
 }
 
 script AzaleaTown_EventScript_GymSign {
-    msgbox("AZALEA TOWN {POKEMON} GYM\n"
+    msgbox("ECORCIA {POKEMON} GYM\n"
            "LEADER: BUGSY\p"
            "The Walking BUG {POKEMON}\n"
            "Encyclopedia", MSGBOX_SIGN)
 }
 
 script AzaleaTown_EventScript_SlowpokeWell_B1FSign {
-    msgbox("SLOWPOKE WELL\n"
+    msgbox("PUITS RAMOLOSS\n"
            "Also known as the RAINMAKER WELL.\p"
            "Locals believe that a SLOWPOKE's\n"
            "yawn summons rain.\p"
@@ -250,6 +250,6 @@ script AzaleaTown_EventScript_CharcoalKilnSign {
 }
 
 script AzaleaTown_EventScript_IlexForestSign {
-    msgbox("ILEX FOREST\n"
+    msgbox("BOIS AUX CHENES\n"
            "Enter through the gate.", MSGBOX_SIGN)
 }

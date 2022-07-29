@@ -15,7 +15,7 @@ script Route34_IlexNorthGatehouse_EventScript_TauntWoman {
 	faceplayer
     if (flag(FLAG_FOREST_IS_RESTLESS))
     {
-        msgbox("Something's wrong in ILEX FOREST…\n"
+        msgbox("Something's wrong in BOIS AUX CHENES…\n"
                "You should stay away right now.")
     }
 	elif (!flag(FLAG_RECEIVED_TM12_TAUNT))

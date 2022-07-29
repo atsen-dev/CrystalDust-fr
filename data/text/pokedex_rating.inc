@@ -63,7 +63,7 @@ gPokedexRatingText_LessThan155::
 	.string "{POKEMON}, not just catching them.$"
 
 gPokedexRatingText_LessThan170::
-	.string "Have you met KURT of AZALEA TOWN?\n"
+	.string "Have you met KURT of ECORCIA?\n"
 	.string "His custom BALLS should help.$"
 
 gPokedexRatingText_LessThan185::

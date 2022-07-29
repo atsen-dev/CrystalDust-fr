@@ -1,7 +1,7 @@
 mapscripts Route32_Gatehouse_MapScripts { }
 
 script Route32_Gatehouse_Officer {
-    msgbox("RUINS OF ALPH: a look-and-touch\n"
+    msgbox("RUINES D'ALPHA: a look-and-touch\n"
            "tourist site.\p"
            "Try the sliding stone panels!", MSGBOX_NPC)
 }

@@ -6,7 +6,7 @@ script AzaleaTown_CharcoalKiln_EventScript_Master {
     if (flag(FLAG_RECEIVED_HM01))
     {
         msgbox("You chased off TEAM ROCKET and\n"
-               "went to ILEX FOREST alone?\p"
+               "went to BOIS AUX CHENES alone?\p"
                "That takes guts! I like that.\n"
                "Come train with us.")
     }
@@ -14,7 +14,7 @@ script AzaleaTown_CharcoalKiln_EventScript_Master {
     {
         msgbox("The SLOWPOKE have returned…\n"
                "But my APPRENTICE hasn't come\l"
-               "back from ILEX FOREST.\p"
+               "back from BOIS AUX CHENES.\p"
                "Where in the world could that\n"
                "lazy guy be?")
     }

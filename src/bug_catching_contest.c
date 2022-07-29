@@ -963,7 +963,7 @@ static void SetAwardsCeremonyBugContestObjectEventScripts(void)
 
 static const u8 *GetContestantNamePrefix(int contestantId)
 {
-    static const u8 sNewBarkTownsText[] = _("NEW BARK TOWN's");
+    static const u8 sNewBarkTownsText[] = _("BOURG GEON's");
     if (contestantId == NUM_BUG_CONTEST_NPCS)
         return sNewBarkTownsText;
     else
