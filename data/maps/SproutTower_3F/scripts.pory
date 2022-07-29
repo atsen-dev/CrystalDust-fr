@@ -111,7 +111,7 @@ script SproutTower_3F_EventScript_Li_PostBattle {
     msgbox("FLASH illuminates even the darkest\n"
            "of all places.\p"
            "But to use it out of battle, you\n"
-           "need the BADGE from VIOLET's GYM.")
+           "need the BADGE from MAUVILLE's GYM.")
     release
 }
 

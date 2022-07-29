@@ -420,7 +420,7 @@ CableClub_Text_FirstTimeRightThisWay:
 	.string "I'll show you how the Wireless\n"
 	.string "Communication System works.\p"
 	.string "First, I need to show you this\n"
-	.string "floor of our {POKEMON} CENTER.\p"
+	.string "floor of our CENTRE {POKEMON}.\p"
 	.string "Right this way, please.$"
 
 CableClub_Text_ExplainWirelessClubFirstTime:

@@ -57,7 +57,7 @@ gContestPaintingBeauty2::
 	.string "glittering smile$"
 
 gContestPaintingBeauty3::
-	.string "{POKEMON} CENTER's super idol--\n"
+	.string "CENTRE {POKEMON}'s super idol--\n"
 	.string "the incomparable {STR_VAR_1}$"
 
 gContestPaintingCute1::

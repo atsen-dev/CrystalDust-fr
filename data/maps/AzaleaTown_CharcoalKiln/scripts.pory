@@ -12,7 +12,7 @@ script AzaleaTown_CharcoalKiln_EventScript_Master {
     }
     elif (flag(FLAG_CLEARED_SLOWPOKE_WELL))
     {
-        msgbox("The SLOWPOKE have returned…\n"
+        msgbox("The RAMOLOSS have returned…\n"
                "But my APPRENTICE hasn't come\l"
                "back from BOIS AUX CHENES.\p"
                "Where in the world could that\n"
@@ -20,7 +20,7 @@ script AzaleaTown_CharcoalKiln_EventScript_Master {
     }
     else
     {
-        msgbox("All the SLOWPOKE have disappeared\n"
+        msgbox("All the RAMOLOSS have disappeared\n"
                "from the town.\p"
                "The forest's protector may be\n"
                "angry with us…\p"
@@ -35,7 +35,7 @@ script AzaleaTown_CharcoalKiln_EventScript_Apprentice {
     faceplayer
     if (flag(FLAG_RECEIVED_CHARCOAL_AZALEA))
     {
-        msgbox("The SLOWPOKE came back, and you\n"
+        msgbox("The RAMOLOSS came back, and you\n"
                "even found FARFETCH'D.\p"
                "You're the coolest, man!")
     }
@@ -58,7 +58,7 @@ script AzaleaTown_CharcoalKiln_EventScript_Apprentice {
     }
     else
     {
-        msgbox("Where have all the SLOWPOKE gone?\n"
+        msgbox("Where have all the RAMOLOSS gone?\n"
                "Are they out playing somewhere?")
     }
     release

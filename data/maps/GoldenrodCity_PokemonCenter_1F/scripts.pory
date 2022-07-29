@@ -92,7 +92,7 @@ script GoldenrodCity_PokemonCenter_1F_EventScript_OldMan {
     else
     {
         msgbox("I came over here when I got word\n"
-               "that GOLDENROD's {POKEMON} CENTER\l"
+               "that DOUBLON VILLE's {POKEMON} CENTER\l"
                "has new machines that no one's\l"
                "ever seen before.\p"
                "But it looks like they're still busy\n"
@@ -124,7 +124,7 @@ script GoldenrodCity_PokemonCenter_1F_EventScript_HugeCenterBoy {
     }
     else
     {
-        msgbox("Whoa, this {POKEMON} CENTER is huge.\n"
+        msgbox("Whoa, this CENTRE {POKEMON} is huge.\n"
                "They just built this place.\p"
                "They installed lots of new machines\n"
                "too.", MSGBOX_NPC)
@@ -148,7 +148,7 @@ script GoldenrodCity_PokemonCenter_1F_EventScript_TradingGirl {
     elif (flag(FLAG_TEMP_1))
     {
         msgbox("I'm jealous! They stopped giving\n"
-               "those EGG TICKETS away earlier\l"
+               "those ŒUF TICKETS away earlier\l"
                "because their supply ran out.", MSGBOX_NPC)
     }
     else
@@ -159,7 +159,7 @@ script GoldenrodCity_PokemonCenter_1F_EventScript_TradingGirl {
         {
             lock
             faceplayer
-            msgbox("Oh, you have an EGG TICKET?\n"
+            msgbox("Oh, you have an ŒUF TICKET?\n"
                    "Maybe they still have some EGGS!\l"
                    "Good luck!")
             closemessage
@@ -236,8 +236,8 @@ script GoldenrodCity_PokemonCenter_1F_EventScript_NewsWoman {
     }
     else
     {
-        msgbox("The {POKE}COM CENTER will link with all\n"
-               "{POKEMON} CENTERS in a wireless net.\p"
+        msgbox("The CENTRE {POKE}COM will link with all\n"
+               "CENTRE {POKEMON}S in a wireless net.\p"
                "That must mean I'll be able to\n"
                "link with all sorts of people.", MSGBOX_NPC)
     }
@@ -286,13 +286,13 @@ script GoldenrodCity_PokemonCenter_1F_EventScript_TradeCounterNurse {
     if (var(VAR_RESULT))
     {
         msgbox("Oh!\n"
-               "I see you have an EGG TICKET!\p"
+               "I see you have an ŒUFT ICKET!\p"
                "It's a coupon that special people\n"
                "can redeem for a special {POKEMON}!\p"
                "We have a few left, so an ODD EGG\n"
                "is available just for you.\p"
                "Would you like to redeem your\n"
-               "EGG TICKET?", MSGBOX_YESNO)
+               "ŒUF TICKET?", MSGBOX_YESNO)
         if (var(VAR_RESULT) == YES)
         {
             getpartysize
@@ -302,14 +302,14 @@ script GoldenrodCity_PokemonCenter_1F_EventScript_TradeCounterNurse {
                        "Let's get started.")
                 textcolor(MSG_COLOR_SYS)
                 playfanfare(MUS_OBTAIN_ITEM)
-                message("{PLAYER} handed the EGG TICKET to\n"
+                message("{PLAYER} handed the ŒUF TICKET to\n"
                         "the receptionist.")
                 waitmessage
                 waitfanfare
                 textcolor(MSG_COLOR_PREV)
                 removeitem(ITEM_EGG_TICKET)
                 msgbox("Thank you! Let me retrieve the\n"
-                       "ODD EGG from one of the rooms.\l"
+                       "ODD ŒUF from one of the rooms.\l"
                        "Please wait a moment.")
                 closemessage
                 applymovement(VAR_LAST_TALKED, GoldenrodCity_PokemonCenter_1F_Movement_TradeCounterNurseToPC)

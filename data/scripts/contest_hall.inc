@@ -1570,7 +1570,7 @@ LilycoveCity_ContestLobby_Text_MonNotQualifiedForRank:
 	.string "Rank yet…$"
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart:
-	.string "I'm sorry, but an EGG cannot take part\n"
+	.string "I'm sorry, but an ŒUF cannot take part\n"
 	.string "in a {POKEMON} CONTEST.$"
 
 LilycoveCity_ContestLobby_Text_MonInNoConditionForContest:

@@ -10,7 +10,7 @@ script VioletCity_Earl {
 	waitmovement(0)
 	faceplayer
 	msgbox("Hello!\n"
-		   "You are TRAINER?\p"
+		   "TU es un DRESSEUR?\p"
 		   "Battle GYM LEADER, win you did?", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == YES)
 	{
@@ -252,7 +252,7 @@ script VioletCity_PrimeTimeGuy {
 }
 
 script VioletCity_Gramps {
-    msgbox("FALKNER, from the VIOLET {POKEMON}\n"
+    msgbox("FALKNER, from the MAUVILLE {POKEMON}\n"
 	       "GYM, is a fine TRAINER!\p"
 		   "He inherited his father's GYM and\n"
 		   "has done a great job with it.", MSGBOX_NPC)

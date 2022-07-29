@@ -332,7 +332,7 @@ Text_Pokegear_Elm_CheckingEgg::
 Text_Pokegear_Elm_SeeAssistant::
 	.string "Hello, {PLAYER}?\n"
 	.string "Did you see my assistant?\p"
-	.string "He's at the {POKEMON} CENTER in\n"
+	.string "He's at the CENTRE {POKEMON} in\n"
     	.string "MAUVILLE.$"
 
 Text_Pokegear_Elm_EggUnhatched::

@@ -85,7 +85,7 @@ script Route32_EventScript_RoadblockMan_Common {
     elif (!flag(FLAG_BADGE01_GET))
     {
         msgbox("Have you gone to the {POKEMON}\n"
-               "GYM in VIOLET yet?\p"
+               "GYM in MAUVILLE yet?\p"
                "You can test your {POKEMON} and\n"
                "yourself there.\p"
                "It's a rite of passage for all\n"
@@ -120,7 +120,7 @@ script Route32_EventScript_RoadblockMan_Common {
                "Some guy wearing glasses was\l"
                "looking for you.\p"
                "Go see for yourself. He's waiting\n"
-               "for you at the {POKEMON} CENTER.")
+               "for you at the CENTRE {POKEMON}.")
     }
 }
 

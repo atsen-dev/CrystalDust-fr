@@ -122,7 +122,7 @@ script Route36_EventScript_BlockedGirl {
         msgbox("An odd tree is blocking the way\n"
                "to DOUBLON VILLE.\p"
                "I wanted to go see the huge\n"
-               "{POKEMON} CENTER they just opened…")
+               "CENTRE {POKEMON} they just opened…")
     }
     else
     {

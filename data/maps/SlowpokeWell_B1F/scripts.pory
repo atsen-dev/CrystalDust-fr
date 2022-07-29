@@ -131,7 +131,7 @@ script SlowpokeWell_B1F_EventScript_SlowpokeWithMail {
     faceplayer
     waitse
     playmoncry(SPECIES_SLOWPOKE, 2)
-    msgbox("It's a SLOWPOKE with its TAIL\n"
+    msgbox("It's a RAMOLOSS with its TAIL\n"
            "cut off…\p"
            "Huh? It has MAIL.\n"
            "Read it?", MSGBOX_YESNO)
@@ -140,7 +140,7 @@ script SlowpokeWell_B1F_EventScript_SlowpokeWithMail {
         msgbox("{PLAYER} read the MAIL.\n"
                "……\p"
                "Be good and look after the house\n"
-               "with Grandpa and SLOWPOKE.\l"
+               "with Grandpa and RAMOLOSS.\l"
                "Love, Dad")
     }
     release
@@ -151,7 +151,7 @@ script SlowpokeWell_B1F_EventScript_TaillessSlowpoke {
     faceplayer
     waitse
     playmoncry(SPECIES_SLOWPOKE, 2)
-    msgbox("It's a SLOWPOKE with its TAIL\n"
+    msgbox("It's a RAMOLOSS with its TAIL\n"
            "cut off…")
     waitmoncry
     release

@@ -368,17 +368,17 @@ const u8 DecorDesc_TOGEPI_DOLL[] = _(
         "or a desk.");
 
 const u8 DecorDesc_CYNDAQUIL_DOLL[] = _(
-    "A CYNDAQUIL doll.\n"
+    "A HERICENDRE doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_CHIKORITA_DOLL[] = _(
-    "A CHIKORITA doll.\n"
+    "A GERMIGNON doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
 const u8 DecorDesc_TOTODILE_DOLL[] = _(
-    "A TOTODILE doll.\n"
+    "A KAIMINUS doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 

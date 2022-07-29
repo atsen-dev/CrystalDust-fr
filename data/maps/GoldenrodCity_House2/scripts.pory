@@ -11,5 +11,5 @@ script GoldenrodCity_House2_EventScript_PPTipGirl {
     msgbox("Sometimes, a healthy {POKEMON}\n"
            "may be unable to use its moves.\p"
            "If that happens, heal it at a\n"
-           "{POKEMON} CENTER or use an item.", MSGBOX_NPC)
+           "CENTRE {POKEMON} or use an item.", MSGBOX_NPC)
 }

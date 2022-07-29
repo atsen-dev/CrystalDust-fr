@@ -440,7 +440,7 @@ script IlexForest_EventScript_Master {
 		msgbox("That's the CUT HM. Teach that to a\n"
 			   "{POKEMON} to clear small trees.\p"
 			   "Of course, you have to have the\n"
-			   "GYM BADGE from AZALEA to use it.")
+			   "GYM BADGE from ECORCIA to use it.")
 		setflag(FLAG_HIDE_ILEX_FOREST_MASTER)
 		setflag(FLAG_HIDE_ILEX_FOREST_APPRENTICE_FARFETCHD)
 		clearflag(FLAG_HIDE_AZALEA_TOWN_CHARCOAL_KILN_MASTER)

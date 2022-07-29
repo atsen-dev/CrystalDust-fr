@@ -539,7 +539,7 @@ gText_PokemartSign::
 
 gText_PokemonCenterSign::
 	.string "Heal Your {POKEMON}!\n"
-	.string "{POKEMON} CENTER$"
+	.string "CENTRE {POKEMON}$"
 
 gText_MomOrDadMightLikeThisProgram::
 	.string "{STR_VAR_1} might like this program.\n"

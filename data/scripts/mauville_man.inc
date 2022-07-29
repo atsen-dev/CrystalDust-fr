@@ -445,18 +445,18 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedStory::
 	.string "of {POKEMON}!$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterTitle::
-	.string "The {POKEMON} CENTER-Loving TRAINER$"
+	.string "The CENTRE {POKEMON}-Loving TRAINER$"
 
-MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterAction::
-	.string "Used {POKEMON} CENTERS$"
+MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterAction:: @ 828EF95
+	.string "Used CENTRE {POKEMON}S$"
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterStory::
 	.string "This is a tale of a TRAINER\n"
 	.string "named {STR_VAR_3}.\p"
 	.string "This TRAINER healed {POKEMON}\n"
-	.string "{STR_VAR_1} times at {POKEMON} CENTERS!\p"
+	.string "{STR_VAR_1} times at CENTRE {POKEMON}S!\p"
 	.string "There could be no greater lover of\n"
-	.string "{POKEMON} CENTERS than {STR_VAR_3}!$"
+	.string "CENTRE {POKEMON}s than {STR_VAR_3}!$"
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeTitle::
 	.string "The Homebody TRAINER$"

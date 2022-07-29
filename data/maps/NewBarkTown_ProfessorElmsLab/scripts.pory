@@ -85,7 +85,7 @@ script NewBarkTown_ProfessorElmsLab_EventScript_Elm {
         msgbox("ELM: {PLAYER}?\n"
                "Didn't you meet my assistant?\p"
                "He should have met you with the EGG\n"
-               "at MAUVILLE's {POKEMON} CENTER.\p"
+               "at MAUVILLE's CENTRE {POKEMON}.\p"
                "You must have just missed him.\n"
                "Try to catch him there.")
     }
@@ -465,17 +465,17 @@ script NewBarkTown_EventScript_PokeBallMain {
         switch (var(PLAYER_STARTER_NUM))
         {
             case STARTER_CHIKORITA:
-                msgbox("ELM: Hm! CHIKORITA is your choice.\n"
+                msgbox("ELM: Hm! GERMIGNON is your choice.\n"
                        "Take your time raising it.\p"
-                       "So, {PLAYER}, do you like CHIKORITA,\n"
+                       "So, {PLAYER}, do you like GERMIGNON,\n"
                        "the GRASS {POKEMON}?", MSGBOX_YESNO)
             case STARTER_TOTODILE:
-                msgbox("ELM: Ah! TOTODILE is your choice.\n"
+                msgbox("ELM: Ah! KAIMINUS is your choice.\n"
                        "It would be rewarding to raise.\p"
                        "So, {PLAYER}, do you want TOTODILE,\n"
                        "the WATER {POKEMON}?", MSGBOX_YESNO)
             case STARTER_CYNDAQUIL:
-                msgbox("ELM: Oh! CYNDAQUIL is your choice.\n"
+                msgbox("ELM: Oh! HERICENDRE is your choice.\n"
                        "Raising it would be a cinch.\p"
                        "So, {PLAYER}, you'll take CYNDAQUIL,\n"
                        "the FIRE {POKEMON}?", MSGBOX_YESNO)
@@ -544,7 +544,7 @@ script NewBarkTown_EventScript_PokeBallMain {
             delay(20)
             textcolor(MSG_COLOR_BLUE)
             msgbox("MR. {POKEMON} lives a bit beyond\n"
-                   "CHERRYGROVE, the next city over.\p"
+                   "VILLE GRIOTTE, the next city over.\p"
                    "It's almost a direct route there,\n"
                    "so you can't miss it.\p"
                    "But just in case, here's my number.\n"

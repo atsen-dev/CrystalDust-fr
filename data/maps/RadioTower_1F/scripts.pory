@@ -222,7 +222,7 @@ script RadioTower_1F_EventScript_RadioCardWoman {
                     waitse
                     msgbox("So far so good!\n"
                            "Question 4:\p"
-                           "Is FALKNER the VIOLET GYM LEADER\n"
+                           "Is FALKNER the MAUVILLE GYM LEADER\n"
                            "who uses BIRD {POKEMON}?", MSGBOX_YESNO)
                     if (var(VAR_RESULT) == YES)
                     {

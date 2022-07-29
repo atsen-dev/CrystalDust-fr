@@ -169,13 +169,13 @@ script AzaleaTown_EventScript_OldMan {
     faceplayer
     if (flag(FLAG_CLEARED_SLOWPOKE_WELL))
     {
-        msgbox("The SLOWPOKE have returned.\p"
+        msgbox("The RAMOLOSS have returned.\p"
                "Knowing them, they could've just\n"
                "been goofing off somewhere.")
     }
     else
     {
-        msgbox("The SLOWPOKE have disappeared\n"
+        msgbox("The RAMOLOSS have disappeared\n"
                "from town…\p"
                "I heard their TAILS are being\n"
                "sold somewhere.")
@@ -202,7 +202,7 @@ script AzaleaTown_EventScript_Youngster {
 script AzaleaTown_EventScript_Slowpoke {
     lock
     faceplayer
-    message("SLOWPOKE: …\n"
+    message("RAMOLOSS: …\n"
            "…… …… ……")
     waitmessage
     delay(60)
@@ -239,9 +239,9 @@ script AzaleaTown_EventScript_GymSign {
 script AzaleaTown_EventScript_SlowpokeWell_B1FSign {
     msgbox("PUITS RAMOLOSS\n"
            "Also known as the RAINMAKER WELL.\p"
-           "Locals believe that a SLOWPOKE's\n"
+           "Locals believe that a RAMOLOSS's\n"
            "yawn summons rain.\p"
-           "Records show that a SLOWPOKE's yawn\n"
+           "Records show that a RAMOLOSS's yawn\n"
            "ended a drought 400 years ago.", MSGBOX_SIGN)
 }
 
