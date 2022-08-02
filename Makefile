@@ -40,7 +40,7 @@ TITLE       := POKEMON EMER
 GAME_CODE   := BPEE
 MAKER_CODE  := 01
 REVISION    := 0
-MODERN      ?= 0
+MODERN      ?= 1
 DEBUG		?= 0
 RELEASE_ID  ?= 0
 

@@ -36,7 +36,7 @@ script NewBarkTown_PlayersHouse_1F_MomEncounter {
     waitmovement(0)
     delay(20)
     msgbox("MAMAN: Ah, {PLAYER}…!\p"
-           "Notre voisin, le PROF. ORME, te cherchait.\p"
+           "Notre voisin, le PROF. ORME, te/ncherchait.\p"
            "Il voulait que tu fasses quelque chose\n"
            "pour lui.\p"
            "Oh, J'allais oublier! Ton MATOS {POKEMON}\n"
@@ -77,7 +77,7 @@ script NewBarkTown_PlayersHouse_1F_MomEncounter {
                "“Les numéros de téléphones sont enregistré\n"
                "dans la mémoire.\n"
                "Choisis le nom de celui que tu veux appeler.”\p"
-               "C'est pas trop compliquém non?")
+               "C'est pas trop compliqué, non?")
     }
 
     closemessage
