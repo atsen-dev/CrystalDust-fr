@@ -5,12 +5,12 @@ mapscripts CeladonCity_MapScripts {
 }
 
 script CeladonCity_EventScript_CitySign {
-	msgbox("CELADON CITY\nThe City of Rainbow Dreams", MSGBOX_SIGN)
+	msgbox("CELADOPOLE\nThe City of Rainbow Dreams", MSGBOX_SIGN)
 	end
 }
 
 script CeladonCity_EventScript_GymSign {
-	msgbox("CELADON CITY {POKEMON} GYM\nLEADER: ERIKA\pThe Nature-Loving Princess", MSGBOX_SIGN)
+	msgbox("CELADOPOLE {POKEMON} GYM\nLEADER: ERIKA\pThe Nature-Loving Princess", MSGBOX_SIGN)
     end
 }
 

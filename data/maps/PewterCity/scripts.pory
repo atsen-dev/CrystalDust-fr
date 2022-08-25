@@ -16,12 +16,12 @@ mapscripts PewterCity_MapScripts {
 }
 
 script PewterCity_EventScript_CitySign {
-    msgbox("PEWTER CITY\nA Stone Gray City", MSGBOX_SIGN)
+    msgbox("ARGENTA\nA Stone Gray City", MSGBOX_SIGN)
     end
 }
 
 script PewterCity_EventScript_WelcomeSign {
-    msgbox("WELCOME TO PEWTER CITY!", MSGBOX_SIGN)
+    msgbox("WELCOME TO ARGENTA!", MSGBOX_SIGN)
     end
 }
 
@@ -31,7 +31,7 @@ script PewterCity_EventScript_GiftShopSign {
 }
 
 script PewterCity_EventScript_GymSign {
-    msgbox("PEWTER CITY {POKEMON} GYM\nLEADER: BROCK\pThe Rock-Solid {POKEMON} Trainer", MSGBOX_SIGN)
+    msgbox("ARGENTA {POKEMON} GYM\nLEADER: BROCK\pThe Rock-Solid {POKEMON} Trainer", MSGBOX_SIGN)
     end
 }
 

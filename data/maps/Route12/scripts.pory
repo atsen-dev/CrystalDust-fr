@@ -30,6 +30,6 @@ script Route12_EventScript_FishingSpotSign {
 }
 
 script Route12_EventScript_RouteSign {
-	msgbox("ROUTE 12\nNORTH TO LAVENDER TOWN", MSGBOX_SIGN)
+	msgbox("ROUTE 12\nNORTH TO LAVENDIA", MSGBOX_SIGN)
     end
 }

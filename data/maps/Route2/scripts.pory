@@ -19,7 +19,7 @@ script Route2_EventScript_BugCatcherEd { //highest
 }
 
 script Route2_EventScript_RouteSign {
-    msgbox("ROUTE 2\nVIRIDIAN CITY - PEWTER CITY", MSGBOX_SIGN)
+    msgbox("ROUTE 2\nJADIELLE - ARGENTA", MSGBOX_SIGN)
 	end
 }
 

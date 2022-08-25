@@ -61,12 +61,12 @@ script VermilionCity_EventScript_Snorlax{
 }
 
 script VermilionCity_EventScript_TownSign{
-    msgbox("VERMILION CITY\nThe Port of Exquisite Sunsets", MSGBOX_SIGN)
+    msgbox("CARMIN SUR MER\nThe Port of Exquisite Sunsets", MSGBOX_SIGN)
     end
 }
 
 script VermilionCity_EventScript_GymSign{
-    msgbox("VERMILION CITY {POKEMON} GYM\nLEADER: LT. SURGE\pThe Lightning American", MSGBOX_SIGN)
+    msgbox("CARMIN SUR MER {POKEMON} GYM\nLEADER: LT. SURGE\pThe Lightning American", MSGBOX_SIGN)
     end
 }
 

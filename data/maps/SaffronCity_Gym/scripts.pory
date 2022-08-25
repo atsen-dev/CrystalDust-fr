@@ -33,10 +33,10 @@ script SaffronCity_Gym_EventScript_GymGuide {
 script SaffronCity_Gym_EventScript_GymStatues{
     if(flag(FLAG_BADGE14_GET))
     {
-        msgbox("SAFFRON CITY {POKEMON} GYM\nLEADER: SABRINA\pWINNING TRAINERS:\n{PLAYER}", MSGBOX_SIGN)
+        msgbox("SAFRANIA {POKEMON} GYM\nLEADER: SABRINA\pWINNING TRAINERS:\n{PLAYER}", MSGBOX_SIGN)
         end
     }
-    msgbox("SAFFRON CITY {POKEMON} GYM", MSGBOX_SIGN)
+    msgbox("SAFRANIA {POKEMON} GYM", MSGBOX_SIGN)
     end
 }
 

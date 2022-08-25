@@ -66,9 +66,9 @@ script CeladonCity_Gym_EventScript_TwinsJoAndZoe2 {
 script CeladonCity_Gym_EventScript_Statues {
     if(flag(FLAG_BADGE12_GET))
     {
-        msgbox("CELADON CITY {POKEMON} GYM\nLEADER: ERIKA\pWINNING TRAINERS:\n{PLAYER}", MSGBOX_SIGN)
+        msgbox("CELADOPOLE {POKEMON} GYM\nLEADER: ERIKA\pWINNING TRAINERS:\n{PLAYER}", MSGBOX_SIGN)
         end
     }
-    msgbox("CELADON CITY {POKEMON} GYM", MSGBOX_SIGN)
+    msgbox("CELADOPOLE {POKEMON} GYM", MSGBOX_SIGN)
     end
 }

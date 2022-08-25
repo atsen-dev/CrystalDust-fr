@@ -22,7 +22,7 @@ script Route18_EventScript_BirdKeeperBoris { //in grass
 }
 
 script Route18_EventScript_RouteSign{
-    msgbox("ROUTE 18\nCELADON CITY - FUCHSIA CITY", MSGBOX_SIGN)
+    msgbox("ROUTE 18\nCELADOPOLE - PARMANIE", MSGBOX_SIGN)
 }
 
 script Route18_EventScript_UphillSign{

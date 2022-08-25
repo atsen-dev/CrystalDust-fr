@@ -5,7 +5,7 @@ mapscripts ViridianForest_MapScripts {
 }
 
 script ViridianForest_EventScript_BugCatcherDane {
-    trainerbattle_single(TRAINER_DANE, "Welcome to VIRIDIAN FOREST.\nEnjoy my BUG-type {POKEMON}!", "That's wonderful…")
+    trainerbattle_single(TRAINER_DANE, "Welcome to FORÊT DE JADIELLE.\nEnjoy my BUG-type {POKEMON}!", "That's wonderful…")
 	msgbox("Pretty impressive!\pI'm sure you can go anywhere\nwith that skill!", MSGBOX_DEFAULT)
 	release
 }

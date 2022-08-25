@@ -54,7 +54,7 @@ script PalletTown_BluesHouse_EventScript_Daisy {
         release
         end        
     }
-    msgbox("DAISY: Hi! My kid brother is the\nGYM LEADER in VIRIDIAN CITY.\pBut he goes out of town so often,\nit causes problems for the trainers.", MSGBOX_NPC)
+    msgbox("DAISY: Hi! My kid brother is the\nGYM LEADER in JADIELLE.\pBut he goes out of town so often,\nit causes problems for the trainers.", MSGBOX_NPC)
     end
 }text(local) PalletTown_BluesHouse_Text_RefusedDaisy {
     "DAISY: You don't want to have one\ngroomed? OK, we'll just have tea."

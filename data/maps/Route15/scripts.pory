@@ -37,6 +37,6 @@ script Route15_EventScript_SchoolBoyKipp { // leftmost
 }
 
 script Route15_EventScript_RouteSign {
-    msgbox("ROUTE 15\nFUCHSIA CITY - LAVENDER TOWN", MSGBOX_SIGN)
+    msgbox("ROUTE 15\nPARMANIE - LAVENDIA", MSGBOX_SIGN)
     end
 }

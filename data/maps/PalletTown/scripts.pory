@@ -15,7 +15,7 @@ script PalletTown_EventScript_FatMan{
 }
 
 script PalletTown_EventScript_TownSign{
-    msgbox("PALLET TOWN\nA Tranquil Setting of Peace & Purity", MSGBOX_SIGN)
+    msgbox("BOURG PALETTE\nA Tranquil Setting of Peace & Purity", MSGBOX_SIGN)
     end
 }
 

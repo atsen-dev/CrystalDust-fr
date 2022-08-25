@@ -63,7 +63,7 @@ script Route19_EventScript_Notice{
 }
 
 script Route19_EventScript_RouteSign{
-    msgbox("ROUTE 19\nFUCHSIA CITY - SEAFOAM ISLANDS", MSGBOX_SIGN)
+    msgbox("ROUTE 19\nPARMANIE - SEAFOAM ISLANDS", MSGBOX_SIGN)
     end
 }
 

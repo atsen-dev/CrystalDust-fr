@@ -8,10 +8,10 @@ script PewterCity_Gym_EventScript_Camper {
 script PewterCity_Gym_EventScript_GymStatues{
     if(flag(FLAG_BADGE09_GET))
     {
-        msgbox("PEWTER CITY {POKEMON} GYM\nLEADER: BROCK\pWINNING TRAINERS:\n{PLAYER}", MSGBOX_SIGN)
+        msgbox("ARGENTA {POKEMON} GYM\nLEADER: BROCK\pWINNING TRAINERS:\n{PLAYER}", MSGBOX_SIGN)
         end
     }
-    msgbox("PEWTER CITY {POKEMON} GYM", MSGBOX_SIGN)
+    msgbox("ARGENTA {POKEMON} GYM", MSGBOX_SIGN)
     end
 }
 

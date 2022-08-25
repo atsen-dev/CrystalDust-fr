@@ -8,7 +8,7 @@ script Route11_Gatehouse_2F_EventScript_LeftBinoculars {
 
 script Route11_Gatehouse_2F_EventScript_RightBinoculars {
     bufferstring(0, Route12_Gatehouse_1F_Text_Binoculars)
-    msgbox("{STR_VAR_1}To get to LAVENDER TOWN from\nCERULEAN CITY…\pROCK TUNNEL appears to be a good\nroute to take.", MSGBOX_SIGN)
+    msgbox("{STR_VAR_1}To get to LAVENDIA from\nAZURIA…\pROCK TUNNEL appears to be a good\nroute to take.", MSGBOX_SIGN)
     end
 }
 

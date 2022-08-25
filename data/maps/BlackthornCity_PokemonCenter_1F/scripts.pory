@@ -6,7 +6,7 @@ mapscripts BlackthornCity_PokemonCenter_1F_MapScripts {
 }
 
 script BlackthornCity_PokemonCenter_1F_Eventscript_Gentleman{
-    msgbox("Deep inside far-off INDIGO PLATEAU\nis the {POKEMON} LEAGUE.\pI hear the best TRAINERS gather\nthere from around the country.", MSGBOX_NPC)
+    msgbox("Deep inside far-off PLATEAU INDIGO\nis the {POKEMON} LEAGUE.\pI hear the best TRAINERS gather\nthere from around the country.", MSGBOX_NPC)
     end
 }
 

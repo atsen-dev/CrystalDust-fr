@@ -5,12 +5,12 @@ mapscripts SaffronCity_MapScripts {
 }
 
 script SaffronCity_EventScript_CitySign{
-    msgbox("SAFFRON CITY\nShining, Golden Land of Commerce", MSGBOX_SIGN)
+    msgbox("SAFRANIA\nShining, Golden Land of Commerce", MSGBOX_SIGN)
     end
 }
 
 script SaffronCity_EventScript_GymSign{
-    msgbox("SAFFRON CITY {POKEMON} GYM\nLEADER: SABRINA\pThe Master of Psychic {POKEMON}!", MSGBOX_SIGN)
+    msgbox("SAFRANIA {POKEMON} GYM\nLEADER: SABRINA\pThe Master of Psychic {POKEMON}!", MSGBOX_SIGN)
     end
 }
 
@@ -30,7 +30,7 @@ script SaffronCity_EventScript_MrPsychicsHouseSign{
 }
 
 script SaffronCity_EventScript_MagnetTrainStationSign{
-    msgbox("SAFFRON CITY\nMAGNET TRAIN STATION", MSGBOX_SIGN)
+    msgbox("SAFRANIA\nMAGNET TRAIN STATION", MSGBOX_SIGN)
     end
 }
 

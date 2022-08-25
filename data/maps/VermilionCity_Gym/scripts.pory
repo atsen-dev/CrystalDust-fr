@@ -22,10 +22,10 @@ script VermilionCity_Gym_Eventscript_LtSurge{
 script VermilionCity_Gym_EventScript_GymStatues{
     if(flag(FLAG_BADGE11_GET))
     {
-        msgbox("VERMILION CITY {POKEMON} GYM\nLEADER: LT. SURGE\pWINNING TRAINERS:\n{PLAYER}", MSGBOX_SIGN)
+        msgbox("CARMIN SUR MER {POKEMON} GYM\nLEADER: LT. SURGE\pWINNING TRAINERS:\n{PLAYER}", MSGBOX_SIGN)
         end
     }
-    msgbox("VERMILION CITY {POKEMON} GYM", MSGBOX_SIGN)
+    msgbox("CARMIN SUR MER {POKEMON} GYM", MSGBOX_SIGN)
     end
 }
 

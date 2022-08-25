@@ -6,6 +6,6 @@ script Route7_Gatehouse_EventScript_Officer {
         msgbox("I take my GUARD job seriously.\nHey! You have a {POKEDEX}.\pOK.\nYou can go through.", MSGBOX_NPC)
         end
     }
-    msgbox("Did you hear about the accident\nat the POWER PLANT?\pIt's located in the East, close\nto LAVENDER TOWN.", MSGBOX_NPC)
+    msgbox("Did you hear about the accident\nat the POWER PLANT?\pIt's located in the East, close\nto LAVENDIA.", MSGBOX_NPC)
     end
 }

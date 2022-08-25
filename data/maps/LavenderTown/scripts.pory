@@ -5,7 +5,7 @@ mapscripts LavenderTown_MapScripts {
 }
 
 script LavenderTown_EventScript_TownSign{
-    msgbox("LAVENDER TOWN\nThe Noble Purple Town", MSGBOX_SIGN)
+    msgbox("LAVENDIA\nThe Noble Purple Town", MSGBOX_SIGN)
     end
 }
 

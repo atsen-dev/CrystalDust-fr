@@ -31,6 +31,6 @@ script Route9_EventScript_HikerSidney{ //bottom
 }
 
 script Route9_EventScript_RouteSign{
-    msgbox("ROUTE 9\nCERULEAN CITY - ROCK TUNNEL", MSGBOX_SIGN)
+    msgbox("ROUTE 9\nAZURIA - ROCK TUNNEL", MSGBOX_SIGN)
     end
 }

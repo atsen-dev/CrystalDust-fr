@@ -213,7 +213,7 @@ script FastShip_B1F_EventScript_FishermanJonah{
 
 script FastShip_B1F_EventScript_SailorGarrett{
     trainerbattle_single(TRAINER_GARRETT, "This is where we sailors work!", "I lost on my home field…")
-    msgbox("We get different passengers from\nVERMILION CITY to OLIVINE CITY.", MSGBOX_AUTOCLOSE)
+    msgbox("We get different passengers from\nCARMIN SUR MER to OLIVINE CITY.", MSGBOX_AUTOCLOSE)
     end
 }
 

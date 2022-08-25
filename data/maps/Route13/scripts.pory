@@ -31,7 +31,7 @@ script Route13_EventScript_PokefanMAlex { //left
 }
 
 script Route13_EventScript_DirectionsSign {
-    msgbox("NORTH TO LAVENDER TOWN\nWEST TO FUCHSIA CITY", MSGBOX_SIGN)
+    msgbox("NORTH TO LAVENDIA\nWEST TO PARMANIE", MSGBOX_SIGN)
     end
 }
 

@@ -5,7 +5,7 @@ mapscripts Route16_MapScripts {
 }
 
 script Route16_EventScript_RouteSign{ // wasn't present in GSC
-    msgbox("ROUTE 16\nCELADON CITY - FUCHSIA CITY", MSGBOX_SIGN)
+    msgbox("ROUTE 16\nCELADOPOLE - PARMANIE", MSGBOX_SIGN)
 }
 
 script Route16_EventScript_DownHillSign{

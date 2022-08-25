@@ -101,10 +101,10 @@ script CeruleanCity_Gym_EventScript_LeftGymStatue{
 }script CeruleanCity_Gym_EventScript_GymStatues{
     if(flag(FLAG_BADGE10_GET))
     {
-        msgbox("CERULEAN CITY {POKEMON} GYM\nLEADER: MISTY\pWINNING TRAINERS:\n{PLAYER}", MSGBOX_SIGN)
+        msgbox("AZURIA {POKEMON} GYM\nLEADER: MISTY\pWINNING TRAINERS:\n{PLAYER}", MSGBOX_SIGN)
         end
     }
-    msgbox("CERULEAN CITY {POKEMON} GYM", MSGBOX_SIGN)
+    msgbox("AZURIA {POKEMON} GYM", MSGBOX_SIGN)
     end
 }
 

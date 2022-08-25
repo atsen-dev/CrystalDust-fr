@@ -76,7 +76,7 @@ script SaffronCity_CopycatsHouse_2F_EventScript_Copycat {
         checkplayergender
         if(var(VAR_RESULT) == MALE)
         {
-            msgbox("{PLAYER}: Hi!\pI heard that you lost your\nfavorite {POKE} DOLL.\p{PLAYER}: If I find it, you'll give\nme a rail PASS?\p{PLAYER}: I'll go find it for you.\pYou think you lost it when you went\nto VERMILION CITY?", MSGBOX_DEFAULT)
+            msgbox("{PLAYER}: Hi!\pI heard that you lost your\nfavorite {POKE} DOLL.\p{PLAYER}: If I find it, you'll give\nme a rail PASS?\p{PLAYER}: I'll go find it for you.\pYou think you lost it when you went\nto CARMIN SUR MER?", MSGBOX_DEFAULT)
         }
         else
         {

@@ -2,7 +2,7 @@ mapscripts Route18_Gatehouse_2F_MapScripts {}
 
 script Route18_Gatehouse_2F_EventScript_LeftBinoculars {
     bufferstring(0, Route12_Gatehouse_1F_Text_Binoculars)
-    msgbox("{STR_VAR_1}PALLET TOWN is in the west.", MSGBOX_SIGN)
+    msgbox("{STR_VAR_1}BOURG PALETTE is in the west.", MSGBOX_SIGN)
     end
 }
 

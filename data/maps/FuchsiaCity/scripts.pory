@@ -20,12 +20,12 @@ script FuchsiaCity_EventScript_PokefanM{
 }
 
 script FuchsiaCity_EventScript_CitySign{
-    msgbox("FUCHSIA CITY\nBehold! It's Passion Pink!", MSGBOX_SIGN)
+    msgbox("PARMANIE\nBehold! It's Passion Pink!", MSGBOX_SIGN)
     end
 }
 
 script FuchsiaCity_EventScript_GymSign{
-    msgbox("FUCHSIA CITY {POKEMON} GYM\nLEADER: JANINE\pThe Poisonous Ninja Master", MSGBOX_SIGN)
+    msgbox("PARMANIE {POKEMON} GYM\nLEADER: JANINE\pThe Poisonous Ninja Master", MSGBOX_SIGN)
     end
 }
 

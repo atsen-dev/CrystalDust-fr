@@ -8,7 +8,7 @@ mapscripts Route10_MapScripts {
 }
 
 script Route10_EventScript_RockTunnelSign {
-    msgbox("ROCK TUNNEL\nDetour to LAVENDER TOWN", MSGBOX_SIGN)
+    msgbox("ROCK TUNNEL\nDetour to LAVENDIA", MSGBOX_SIGN)
     end
 }
 
@@ -18,7 +18,7 @@ script Route10_EventScript_PowerPlantSign{
 }
 
 script Route10_EventScript_RouteSign{
-    msgbox("ROUTE 10\nCERULEAN CITY - LAVENDER TOWN", MSGBOX_SIGN)
+    msgbox("ROUTE 10\nAZURIA - LAVENDIA", MSGBOX_SIGN)
     end
 }
 

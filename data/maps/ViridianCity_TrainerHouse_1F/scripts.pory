@@ -6,7 +6,7 @@ script ViridianCity_TrainerHouse_1F_EventScript_Receptionist {
 }
 
 script ViridianCity_TrainerHouse_1F_EventScript_CooltrainerM {
-	msgbox("VIRIDIAN is the town closest to\nINDIGO PLATEAU.\pThey built this place because so\nmany trainers pass through on their\lway up to INDIGO PLATEAU.", MSGBOX_NPC)
+	msgbox("VIRIDIAN is the town closest to\nPLATEAU INDIGO.\pThey built this place because so\nmany trainers pass through on their\lway up to PLATEAU INDIGO.", MSGBOX_NPC)
 	end
 }
 

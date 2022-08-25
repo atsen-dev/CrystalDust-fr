@@ -5,7 +5,7 @@ mapscripts CinnabarIsland_MapScripts {
 }
 
 script CinnabarIsland_EventScript_TownSign {
-    msgbox("CINNABAR ISLAND\nThe Fiery Town of Burning Desire", MSGBOX_SIGN)
+    msgbox("CRAMOIS'ÎLE\nThe Fiery Town of Burning Desire", MSGBOX_SIGN)
     end
 }
 

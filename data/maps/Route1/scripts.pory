@@ -13,6 +13,6 @@ script Route1_EventScript_SchoolboyDanny {
 }
 
 script Route1_EventScript_RouteSign {
-    msgbox("ROUTE 1\nPALLET TOWN - VIRIDIAN CITY", MSGBOX_SIGN)
+    msgbox("ROUTE 1\nBOURG PALETTE - JADIELLE", MSGBOX_SIGN)
     end
 }

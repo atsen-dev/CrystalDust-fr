@@ -77,7 +77,7 @@ mapscripts FastShip_Cabins_SE_SSE_Captains_MapScripts {
             playse(SE_DING_DONG)
             waitse
             textcolor(0)
-            msgbox("FAST SHIP S.S. AQUA has arrived\nin VERMILION CITY.", MSGBOX_DEFAULT)
+            msgbox("FAST SHIP S.S. AQUA has arrived\nin CARMIN SUR MER.", MSGBOX_DEFAULT)
             closemessage
             setflag(FLAG_FAST_SHIP_HAS_ARRIVED)
             cleartrainerflag(TRAINER_CAROL) // reused to do map script, saving a flag

@@ -1,7 +1,7 @@
 mapscripts Route6_MapScripts {}
 
 script Route6_EventScript_UndergroundPathSign{
-    msgbox("UNDERGROUND PATH\nCERULEAN CITY - VERMILION CITY", MSGBOX_SIGN)
+    msgbox("UNDERGROUND PATH\nAZURIA - CARMIN SUR MER", MSGBOX_SIGN)
     end
 }
 

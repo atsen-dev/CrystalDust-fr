@@ -5,12 +5,12 @@ mapscripts CeruleanCity_MapScripts {
 }
 
 script CeruleanCity_EventScript_CitySign {
-	msgbox("CERULEAN CITY\nA Mysterious Blue Aura Surrounds It", MSGBOX_SIGN)
+	msgbox("AZURIA\nA Mysterious Blue Aura Surrounds It", MSGBOX_SIGN)
 	end
 }
 
 script CeruleanCity_EventScript_GymSign {
-	msgbox("CERULEAN CITY {POKEMON} GYM\nLEADER: MISTY\pThe Tomboyish Mermaid", MSGBOX_SIGN)
+	msgbox("AZURIA {POKEMON} GYM\nLEADER: MISTY\pThe Tomboyish Mermaid", MSGBOX_SIGN)
     end
 }
 

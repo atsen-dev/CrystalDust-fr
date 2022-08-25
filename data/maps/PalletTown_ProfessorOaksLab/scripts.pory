@@ -42,7 +42,7 @@ script PalletTown_ProfessorOaksLab_EventScript_Oak {
         callnative(CountBadges)
         if(var(VAR_RESULT) == 16)
         {
-            msgbox("OAK: Wow!\nThat's excellent!\pYou collected the BADGES of GYMS in\nKANTO. Well done!\pI was right in my assessment of you.\nTell you what, {PLAYER}.\pI'll make arrangements so that you\ncan go to MT. SILVER.\pMT. SILVER is a big mountain that is\nhome to many wild {POKEMON}.\pIt's too dangerous for your average\ntrainer, so it's off limits.\pBut we can make an exception\nin your case, {PLAYER}.\pGo up to INDIGO PLATEAU.\nYou can reach MT. SILVER from there.", MSGBOX_DEFAULT)
+            msgbox("OAK: Wow!\nThat's excellent!\pYou collected the BADGES of GYMS in\nKANTO. Well done!\pI was right in my assessment of you.\nTell you what, {PLAYER}.\pI'll make arrangements so that you\ncan go to MT. SILVER.\pMT. SILVER is a big mountain that is\nhome to many wild {POKEMON}.\pIt's too dangerous for your average\ntrainer, so it's off limits.\pBut we can make an exception\nin your case, {PLAYER}.\pGo up to PLATEAU INDIGO.\nYou can reach MT. SILVER from there.", MSGBOX_DEFAULT)
             setflag(FLAG_OPENED_MT_SILVER)
         }
         elif(var(VAR_RESULT) == 8)

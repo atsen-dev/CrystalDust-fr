@@ -7,17 +7,17 @@ mapscripts ViridianCity_MapScripts {
 // TODO: Dream Eater guy
 
 script ViridianCity_EventScript_CitySign {
-	msgbox("VIRIDIAN CITY\nThe Eternally Green Paradise", MSGBOX_SIGN)
+	msgbox("JADIELLE\nThe Eternally Green Paradise", MSGBOX_SIGN)
 	end
 }
 
 script ViridianCity_EventScript_GymSign {
-	msgbox("VIRIDIAN CITY {POKEMON} GYM\nLEADER: …\pThe rest of the text is illegible…", MSGBOX_SIGN)
+	msgbox("JADIELLE {POKEMON} GYM\nLEADER: …\pThe rest of the text is illegible…", MSGBOX_SIGN)
     end
 }
 
 script ViridianCity_EventScript_WelcomeSign {
-	msgbox("WELCOME TO VIRIDIAN CITY,\nTHE GATEWAY TO INDIGO PLATEAU", MSGBOX_SIGN)
+	msgbox("WELCOME TO JADIELLE,\nTHE GATEWAY TO PLATEAU INDIGO", MSGBOX_SIGN)
 	end
 }
 
@@ -52,6 +52,6 @@ script ViridianCity_EventScript_OldMan{
 }
 
 script ViridianCity_EventScript_Youngster{
-    msgbox("I heard that there are many items\non the ground in VIRIDIAN FOREST.", MSGBOX_NPC)
+    msgbox("I heard that there are many items\non the ground in FORÊT DE JADIELLE.", MSGBOX_NPC)
     end
 }
